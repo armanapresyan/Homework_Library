@@ -1,6 +1,8 @@
 #include "library.h"
 #include <iostream>
 
+int Library::totalBooks = 0;
+
 Library::Library(int libraryID, int& adminID, const std::string& address, const std::string& contact) :
     libraryID(libraryID), administratorID(adminID), address(address), contact(contact) {}
 
